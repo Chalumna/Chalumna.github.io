@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Browser tab icon -->
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon.png">
+  <!-- Apple devices -->
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09242d">
+  <meta name="description" content="Chalumna is an independent open-source machine learning project exploring non-invasive computer vision for coelacanth research and conservation.">
+  <meta name="keywords" content="coelacanth, Latimeria, computer vision, machine learning, individual re-identification, marine conservation, open source">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chalumna — Computer vision for coelacanth research">
+  <meta property="og:description" content="Open-source machine learning for non-invasive coelacanth research and conservation.">
+  <meta property="og:url" content="https://chalumna.github.io/">
+  <title>Chalumna — Computer vision for coelacanth research</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchProject",
+    "name": "Chalumna",
+    "url": "https://chalumna.github.io/",
+    "description": "An independent open-source machine learning project exploring non-invasive computer vision for coelacanth research and conservation.",
+    "keywords": ["coelacanth", "Latimeria", "computer vision", "machine learning", "conservation"],
+    "sameAs": [
+      "https://github.com/Chalumna",
+      "https://github.com/Chalumna/ReID",
+      "https://github.com/Chalumna/CoelacanthDataset"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Chalumna home">
+        <img src="assets/logo.png" alt="Chalumna logo" class="brand-logo" onerror="this.style.display='none'">
+        <span>CHALUMNA<span class="brand-period">.</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#principles">Principles</a>
+        <a href="#references">References</a>
+        <a class="nav-github" href="https://github.com/Chalumna" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse-dot"></span> INDEPENDENT RESEARCH PROJECT</p>
+          <h1>Seeing individuals.<br><span>Protecting the unseen.</span></h1>
+          <p class="hero-lead">Open-source machine learning for coelacanth research and conservation.</p>
+          <p class="hero-body">Chalumna explores whether computer vision can help researchers recognise individual coelacanths from the distinctive white spots on their bodies — without tagging or touching the animals.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">Explore the research <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="https://github.com/Chalumna" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="status-note"><span class="status-mark"></span> Early-stage project · Research and prototypes in progress</p>
+        </div>
+        <div class="hero-art" aria-label="Original colored-pencil coelacanth artwork">
+          <div class="sketch-caption sketch-caption-top"><span class="sketch-rule"></span> LATIMERIA <em>CHALUMNAE</em></div>
+          <div class="sketch-paper">
+            <img src="assets/logo.png" alt="Colored-pencil sketch of the rear half of a coelacanth, used as Chalumna's visual identity">
+            <span class="paper-grain" aria-hidden="true"></span>
+          </div>
+          <div class="sketch-caption sketch-caption-bottom"><span class="sketch-dot"></span> FIELD NOTES · NON-INVASIVE RESEARCH</div>
+          <div class="coordinate-card"><span class="coordinate-icon">✳</span><span><strong>Observe, don't disturb.</strong><small>Methods designed around animal welfare</small></span></div>
+        </div>
+      </div>
+      <div class="hero-bottom-line" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container intro-grid">
+        <p class="eyebrow">THE CHALLENGE</p>
+        <p class="intro-statement">A distinctive pattern can help turn rare encounters into long-term knowledge — if individuals can be recognised reliably.</p>
+      </div>
+    </section>
+
+    <section class="section research-section" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / RESEARCH QUESTION</p>
+          <h2>Can a model learn<br>to recognise a coelacanth?</h2>
+          <p class="section-intro">Coelacanths of the genus <em>Latimeria</em> live in deep-water habitats and remain difficult to study. Their body spot patterns offer a potential way to recognise individuals across observations, without attaching tags or handling the fish.</p>
+        </div>
+        <div class="research-cards">
+          <article class="research-card">
+            <span class="card-number">01</span>
+            <div class="card-icon" aria-hidden="true">◎</div>
+            <h3>Individual re-identification</h3>
+            <p>Investigate whether machine-learning models can match images of the same fish using its stable spot pattern, including when viewing angles and image conditions vary.</p>
+            <span class="card-tag">Planned evaluation</span>
+          </article>
+          <article class="research-card">
+            <span class="card-number">02</span>
+            <div class="card-icon" aria-hidden="true">⌕</div>
+            <h3>Coelacanth detection</h3>
+            <p>Explore a detection stage that could distinguish coelacanth images from other underwater scenes before individual re-identification is attempted.</p>
+            <span class="card-tag">Future model</span>
+          </article>
+          <article class="research-card">
+            <span class="card-number">03</span>
+            <div class="card-icon" aria-hidden="true">↗</div>
+            <h3>Reproducible research</h3>
+            <p>Build transparent experiments and document data provenance, permissions, evaluation protocols and limitations so results can be independently assessed.</p>
+            <span class="card-tag">Core approach</span>
+          </article>
+        </div>
+        <div class="research-note">
+          <span class="note-symbol">i</span>
+          <p><strong>Current status:</strong> Chalumna is at an early stage. The planned methods have not yet been validated on an authorised coelacanth image dataset, and no operational identification system is being presented here.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">02 / OPEN WORK</p>
+            <h2>Projects in progress.</h2>
+          </div>
+          <p class="section-intro">The organisation's repositories are the home for code, documentation and future reproducible experiments. Status labels reflect the current early-stage work.</p>
+        </div>
+        <div class="project-list">
+          <a class="project-card" href="https://github.com/Chalumna/ReID" target="_blank" rel="noopener noreferrer">
+            <div class="project-symbol">R<span>↗</span></div>
+            <div class="project-main">
+              <div class="project-title-line"><h3>ReID</h3><span class="project-status">WIP</span></div>
+              <p>Explore individual coelacanth re-identification from body spot patterns, with a focus on evaluation and viewing-angle robustness.</p>
+              <span class="project-link">Explore repository <span aria-hidden="true">↗</span></span>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="project-card" href="https://github.com/Chalumna/CoelacanthDataset" target="_blank" rel="noopener noreferrer">
+            <div class="project-symbol">D<span>↗</span></div>
+            <div class="project-main">
+              <div class="project-title-line"><h3>CoelacanthDataset</h3><span class="project-status">WIP</span></div>
+              <p>Develop an openly documented image collection, with careful attention to provenance, licensing, permissions and conservation-sensitive information.</p>
+              <span class="project-link">Explore repository <span aria-hidden="true">↗</span></span>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-card project-card-future">
+            <div class="project-symbol">D<span>+</span></div>
+            <div class="project-main">
+              <div class="project-title-line"><h3>Detect</h3><span class="project-status project-status-planned">PLANNED</span></div>
+              <p>A proposed preliminary classifier to identify whether an image contains a coelacanth. This model is not yet published as an operational tool.</p>
+              <span class="project-link project-link-muted">Planned research direction</span>
+            </div>
+          </div>
+        </div>
+        <p class="project-footnote">Interested in related open-source work? Contributions, research ideas and constructive questions are welcome through the organisation's GitHub repositories.</p>
+      </div>
+    </section>
+
+    <section class="section principles-section" id="principles">
+      <div class="container principles-layout">
+        <div class="principles-copy">
+          <p class="eyebrow">03 / PRINCIPLES</p>
+          <h2>Open science.<br><span>Responsible by design.</span></h2>
+          <p>Making tools open is only one part of responsible research. Data must be handled with care, and conservation must take priority over convenience.</p>
+        </div>
+        <div class="principles-list">
+          <article class="principle-item">
+            <span class="principle-index">01</span>
+            <div><h3>Open code</h3><p>Code, experiments and results should be public and reproducible whenever possible. Each repository defines its own software licence.</p></div>
+          </article>
+          <article class="principle-item">
+            <span class="principle-index">02</span>
+            <div><h3>Data only with permission</h3><p>Images and videos remain subject to their owners' rights. They are shared only when permission and applicable conditions allow it.</p></div>
+          </article>
+          <article class="principle-item">
+            <span class="principle-index">03</span>
+            <div><h3>Protect sensitive locations</h3><p>Exact coelacanth observation sites are not published. Location data must not make vulnerable animals easier to find or disturb.</p></div>
+          </article>
+          <article class="principle-item">
+            <span class="principle-index">04</span>
+            <div><h3>Non-invasive methods</h3><p>The project focuses on observing animals without tagging, touching or otherwise disturbing them.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section references-section" id="references">
+      <div class="container references-layout">
+        <div>
+          <p class="eyebrow">04 / SCIENTIFIC CONTEXT</p>
+          <h2>Building on<br>published research.</h2>
+          <p class="section-intro">Chalumna's initial questions are informed by existing work on coelacanth identification and specimen records. These references provide context; they do not imply endorsement or collaboration.</p>
+        </div>
+        <div class="reference-list">
+          <article class="reference-item">
+            <span class="reference-year">2012</span>
+            <div>
+              <h3>Computer-aided identification of coelacanths, <em>Latimeria chalumnae</em>, using scale patterns</h3>
+              <p>Thornycroft, R. E. &amp; Booth, A. J. · <em>Marine Biology Research</em>, 8, 300–306.</p>
+              <a href="https://doi.org/10.1080/17451000.2011.628679" target="_blank" rel="noopener noreferrer">Read publication <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="reference-item">
+            <span class="reference-year">2011</span>
+            <div>
+              <h3>An updated inventory of all known specimens of the coelacanth, <em>Latimeria</em> spp.</h3>
+              <p>Nulens, R., Scott, L. &amp; Herbin, M. · <em>Smithiana Special Publication</em> 3.</p>
+              <span class="reference-detail">South African Institute for Aquatic Biodiversity</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">GET INVOLVED</p>
+          <h2>Good science grows<br>through collaboration.</h2>
+          <p>Ideas, questions and contributions related to open-source coelacanth research are welcome.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://github.com/Chalumna" target="_blank" rel="noopener noreferrer">Visit Chalumna on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="contact-email" href="mailto:maelig.pesco@gmail.com">maelig.pesco@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="brand footer-brand" href="#top"><span>CHALUMNA<span class="brand-period">.</span></span></a>
+      <p>An independent project exploring non-invasive computer vision for coelacanth research and conservation.</p>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Chalumna · Independent personal project.</p>
+      <p>Not affiliated with or endorsed by any institution unless explicitly stated.</p>
+      <p>Logo: generated with ChatGPT; released under CC0 1.0. Repository code and data have separate licensing terms.</p>
+    </div>
+  </footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>
